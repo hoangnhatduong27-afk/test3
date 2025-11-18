@@ -84,7 +84,7 @@ const galaxyParameters = {
   outsideColor: new THREE.Color(0x48b8b8),
 };
 
-const defaultHeartImages = Array.from({ length: 58 }, (_, i) => `image/img${i + 1}.jpg`);
+const defaultHeartImages = Array.from({ length: 58 }, (_, i) => `vutru/image/img${i + 1}.jpg`);
 
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
